@@ -3,7 +3,12 @@
   <entry>
     <title>tRan's Blog</title>
     <url>/2019/11/01/tRan-s-Blog/</url>
-    <content><![CDATA[<p>这是第一篇博客文章。</p>]]></content>
+    <content><![CDATA[<p>这是第一篇博客文章。</p>
+<h1>使用hexo + Github Pages搭建的博客</h1>
+<h2>使用namecheap创建域名</h2>]]></content>
+      <tags>
+        <tag>Nothing</tag>
+      </tags>
   </entry>
   <entry>
     <title>test firt article</title>
