@@ -3,18 +3,42 @@
   <entry>
     <title>Markdown笔记</title>
     <url>/2019/11/07/Markdown/</url>
-    <content><![CDATA[<h2 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h2><h5 id="标题使用"><a href="#标题使用" class="headerlink" title="标题使用"></a>标题使用</h5><p>Markdown标题有两种格式<br>一级标题 用两个<code>=</code><br>二级标题 用两个<code>-</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">我是一级标题</span><br><span class="line">==</span><br><span class="line">我是二级标题</span><br><span class="line">--  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">例：</span><br><span class="line">我是一级标题</span><br><span class="line">==</span><br><span class="line">我是二级标题</span><br><span class="line">--  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">使用#号表示1-6级标题，一级对应一个#号，二级对应两个#号，以此类推。  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## Markdown段落</span><br><span class="line">##### 段落使用 </span><br><span class="line">段落换行是使用两个及以上空格加上回车  </span><br><span class="line"></span><br><span class="line">##### 字体</span><br><span class="line">`*斜体* `  </span><br><span class="line">`**粗体** `  </span><br><span class="line">`***粗斜体***  `  </span><br><span class="line">例：   </span><br><span class="line">*斜体*  </span><br><span class="line">**粗体**  </span><br><span class="line">***粗斜体*** </span><br><span class="line"></span><br><span class="line">##### 分割线</span><br><span class="line">在一行钟用三个以上的*，-，_来建立一个分割线，行内不能用其他东西，可以有空格</span><br><span class="line">```  </span><br><span class="line">***  </span><br><span class="line">- - -  </span><br><span class="line">```  </span><br><span class="line">例：</span><br><span class="line">***  </span><br><span class="line">- - -  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##### 删除线</span><br><span class="line">两侧使用~~  </span><br><span class="line"></span><br><span class="line">```  </span><br><span class="line">~~tRan~~   </span><br><span class="line">```  </span><br><span class="line">例：  </span><br><span class="line">~~tRan~~</span><br><span class="line"></span><br><span class="line">##### 下划线  </span><br><span class="line">使用HTML中的`&lt;u&gt;&lt;/u&gt;`标签  </span><br><span class="line">  </span><br><span class="line">```  </span><br><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;  </span><br><span class="line">```  </span><br><span class="line">例：  </span><br><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;  </span><br><span class="line"></span><br><span class="line">##### 脚注</span><br></pre></td></tr></table></figure>
-<p>tRan[^name]<br>[^name]: 英文名</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">例：</span><br><span class="line">tRan[^name]</span><br><span class="line">[^name]: 英文名</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## Markdown列表</span><br><span class="line">##### 无序列表使用*,+,-作为标记  </span><br><span class="line">```  </span><br><span class="line">* 第一项  </span><br><span class="line">+ 第二项  </span><br><span class="line">- 第三项   </span><br><span class="line">```  </span><br><span class="line">例：</span><br><span class="line">* 第一项  </span><br><span class="line">+ 第二项  </span><br><span class="line">- 第三项 </span><br><span class="line"></span><br><span class="line">##### 有序列表使用数字并加上 . 来表示  </span><br><span class="line">```  </span><br><span class="line">1. 第一项  </span><br><span class="line">2. 第二项  </span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h2><h5 id="标题使用方法1"><a href="#标题使用方法1" class="headerlink" title="标题使用方法1"></a>标题使用方法1</h5><p>Markdown标题有两种格式<br>一级标题 用两个<code>=</code><br>二级标题 用两个<code>-</code></p>
+<p><code>我是一级标题</code><br><code>==</code><br><code>我是二级标题</code><br><code>--</code> </p>
+<h5 id="标题使用方法2"><a href="#标题使用方法2" class="headerlink" title="标题使用方法2"></a>标题使用方法2</h5><p> 使用#号表示1-6级标题，一级对应一个#号，二级对应两个#号，以此类推。 </p>
+<h2 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h2><h5 id="段落使用"><a href="#段落使用" class="headerlink" title="段落使用"></a>段落使用</h5><p>段落换行是使用两个及以上空格加上回车  </p>
+<h5 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h5><p><code>*斜体*</code><br><code>**粗体**</code><br><code>***粗斜体***</code><br>例：<br><em>斜体</em><br><strong>粗体</strong><br><strong><em>粗斜体</em></strong> </p>
+<h5 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h5><p>在一行钟用三个以上的*，-，_来建立一个分割线，行内不能用其他东西，可以有空格<br><code>---</code><br><code>- - -</code></p>
+<p>例：</p>
+<hr>
+<hr>
+<h5 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h5><p>两侧使用~~  </p>
+<p><code>~~tRan~~</code></p>
+<p>例：<br><del>tRan</del></p>
+<h5 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h5><p>使用HTML中的<code>&lt;u&gt;&lt;/u&gt;</code>标签  </p>
+<p>例：<br><u>带下划线文本</u>  </p>
+<h5 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h5><p>例：<br>tRan[^name]<br>[^name]: 英文名</p>
+<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><h5 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h5><p>无序列表使用<em>,+,-作为标记<br>`</em> 第一项  <code></code>+ 第二项  <code></code>- 第三项 `</p>
+<p>例：</p>
+<ul>
+<li>第一项  </li>
+</ul>
+<ul>
+<li>第二项  </li>
+</ul>
+<ul>
+<li>第三项 </li>
+</ul>
+<h5 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h5><p>有序列表使用数字并加上 . 来表示  </p>
+<p><code>1. 第一项</code><br><code>2. 第二项</code><br><code>3. 第三项</code></p>
 <p>例： </p>
 <ol>
 <li>第一项  </li>
 <li>第二项  </li>
 <li>第三项</li>
 </ol>
-<h5 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h5><p>只需在子列表前加上四个空格即实现嵌套</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    - 第一项嵌套</span><br></pre></td></tr></table></figure>
+<h5 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h5><p>只需在子列表前加上<strong>四个空格</strong>即实现嵌套</p>
+<p><code>1. 第一项</code><br><code>- 第一项嵌套</code></p>
 <p>例：</p>
 <ol>
 <li>第一项<ul>
@@ -23,7 +47,13 @@
 </li>
 </ol>
 <h2 id="Markdown区块"><a href="#Markdown区块" class="headerlink" title="Markdown区块"></a>Markdown区块</h2><h5 id="区块使用"><a href="#区块使用" class="headerlink" title="区块使用"></a>区块使用</h5><p>区块引用实在段落开头加 &gt; ，紧跟着一个空格  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; 区块1  </span><br><span class="line">&gt; 区块2   </span><br><span class="line">```  </span><br><span class="line">例：</span><br><span class="line">&gt; 区块1  </span><br><span class="line">&gt; 区块2</span><br><span class="line"></span><br><span class="line">##### 区块嵌套   </span><br><span class="line">区块是可以嵌套的，一个 &gt;是最外层，两个 &gt;&gt; 是第二层，以此类推  </span><br><span class="line">```  </span><br><span class="line">&gt; 最外层  </span><br><span class="line">&gt; &gt; 第二层  </span><br><span class="line">&gt; &gt; &gt; 第三层</span><br></pre></td></tr></table></figure>
+<p><code>&gt; 区块1</code><br><code>&gt; 区块2</code></p>
+<p>例：</p>
+<blockquote>
+<p>区块1<br>区块2</p>
+</blockquote>
+<h5 id="区块嵌套"><a href="#区块嵌套" class="headerlink" title="区块嵌套"></a>区块嵌套</h5><p>区块是可以嵌套的，一个 &gt;是最外层，两个 &gt;&gt; 是第二层，以此类推  </p>
+<p><code>&gt; 最外层</code><br><code>&gt; &gt; 第二层</code><br><code>&gt; &gt; &gt; 第三层</code></p>
 <p>例：</p>
 <blockquote>
 <p>最外层  </p>
@@ -35,12 +65,51 @@
 </blockquote>
 </blockquote>
 <h5 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h5><p>直接加在区块符号后面</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; 1. 第一项  </span><br><span class="line">&gt; 2. 第二项  </span><br><span class="line">&gt; * 第一项  </span><br><span class="line">&gt; - 第二项   </span><br><span class="line">```  </span><br><span class="line">例：</span><br><span class="line">&gt; 1. 第一项  </span><br><span class="line">&gt; 2. 第二项  </span><br><span class="line">&gt; * 第一项  </span><br><span class="line">&gt; - 第二项 </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##### 列表中使用区块</span><br><span class="line">直接加在列表符号后面 </span><br><span class="line">```  </span><br><span class="line">* 第一项</span><br><span class="line">    &gt; 1  </span><br><span class="line">    &gt; 2</span><br><span class="line">* 第二项</span><br><span class="line">    &gt; 3</span><br><span class="line">    &gt; 4  </span><br><span class="line">```  </span><br><span class="line">例：</span><br><span class="line">* 第一项</span><br><span class="line">    &gt; 1  </span><br><span class="line">    &gt; 2</span><br><span class="line">* 第二项</span><br><span class="line">    &gt; 3   </span><br><span class="line">    &gt; 4 </span><br><span class="line"></span><br><span class="line">## Markdown代码  </span><br><span class="line">##### 代码使用  </span><br><span class="line">如果是段落上的一个函数或者片段的代码，可以用反引号把它包起来  </span><br><span class="line">`print()` </span><br><span class="line"></span><br><span class="line">##### 代码区块</span><br><span class="line">使用TAB或者4个空格   </span><br><span class="line"></span><br><span class="line">	def Hello(name):</span><br><span class="line">		print(&apos;Hello&apos; + str(name))</span><br><span class="line"></span><br><span class="line">        </span><br><span class="line">也可以使用三个反函数包裹一段代码,指定或不指定语言  </span><br><span class="line">```python</span><br><span class="line">def Hello(name):</span><br><span class="line">	print(&apos;Hello&apos; + str(name))</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">## Markdown链接 </span><br><span class="line"></span><br><span class="line">##### 链接使用</span><br></pre></td></tr></table></figure>
-<p><a href="链接地址">链接名称</a><br>或<br>&lt;链接地址&gt;</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">例：tRan的[博客地址](www.tranning888.xyz)  </span><br><span class="line"></span><br><span class="line">##### 高级链接</span><br><span class="line">```  </span><br><span class="line">tRan[1]   </span><br><span class="line">tRan[2]</span><br><span class="line">[1]: https://www.tranning888.xyz</span><br><span class="line">[2]: https://www.tranning888.xyz</span><br></pre></td></tr></table></figure>
+<p><code>&gt; 1. 第一项</code><br><code>&gt; 2. 第二项</code><br><code>&gt; * 第一项</code><br><code>&gt; - 第二项</code></p>
+<p>例：</p>
+<blockquote>
+<ol>
+<li>第一项  </li>
+<li>第二项  </li>
+</ol>
+<ul>
+<li>第一项  </li>
+</ul>
+<ul>
+<li>第二项 </li>
+</ul>
+</blockquote>
+<h5 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h5><p>直接加在列表符号后面，注意<strong>空格</strong></p>
+<p><code>* 第一项</code><br><code>&gt; 1</code><br><code>&gt; 2</code><br><code>* 第二项</code><br><code>&gt; 3</code><br><code>&gt; 4</code></p>
+<p>例：</p>
+<ul>
+<li>第一项<blockquote>
+<p>1<br>2</p>
+</blockquote>
+</li>
+<li>第二项<blockquote>
+<p>3<br>4 </p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Markdown代码"><a href="#Markdown代码" class="headerlink" title="Markdown代码"></a>Markdown代码</h2><h5 id="代码使用"><a href="#代码使用" class="headerlink" title="代码使用"></a>代码使用</h5><p>如果是段落上的一个函数或者片段的代码，可以用反引号把它包起来<br><code>print()</code> </p>
+<h5 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h5><p>使用TAB或者4个空格   </p>
+<pre><code>def Hello(name):
+    print(&apos;Hello&apos; + str(name))</code></pre><p>也可以使用三个反函数包裹一段代码,指定或不指定语言  </p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Hello</span><span class="params">(name)</span>:</span></span><br><span class="line">    print(<span class="string">'Hello'</span> + str(name))</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="Markdown链接"><a href="#Markdown链接" class="headerlink" title="Markdown链接"></a>Markdown链接</h2><h5 id="链接使用"><a href="#链接使用" class="headerlink" title="链接使用"></a>链接使用</h5><p><code>[链接名称](链接地址)</code><br>或<br><code>&lt;链接地址&gt;</code></p>
+<p><code>tRan的[博客地址](www.tranning888.xyz)</code></p>
+<p>例：tRan的<a href="www.tranning888.xyz">博客地址</a>  </p>
+<h5 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tRan[1]   </span><br><span class="line">tRan[2]</span><br><span class="line">[1]: https://www.tranning888.xyz</span><br><span class="line">[2]: https://www.tranning888.xyz</span><br></pre></td></tr></table></figure>
 <p>例:<br>tRan[1]<br>tRan[2]<br>[1]: <a href="https://www.tranning888.xyz">https://www.tranning888.xyz</a><br>[2]: <a href="https://www.tranning888.xyz">https://www.tranning888.xyz</a></p>
-<h2 id="Markdown图片"><a href="#Markdown图片" class="headerlink" title="Markdown图片"></a>Markdown图片</h2><h5 id="图片使用"><a href="#图片使用" class="headerlink" title="图片使用"></a>图片使用</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br><span class="line">```  </span><br><span class="line">也可以像高级链接那样使用</span><br><span class="line"></span><br><span class="line">##### 高度宽度</span><br><span class="line">可以使用`&lt;img&gt;`标签</span><br><span class="line"></span><br><span class="line">## Markdown表格</span><br><span class="line">##### 表格使用   </span><br><span class="line">使用`|`来分隔不同的单元格，使用`-`来分隔表头和其他行</span><br><span class="line">```   </span><br><span class="line">|  表头  |  表头  |   </span><br><span class="line">|  ----  |  ----  |   </span><br><span class="line">| 单元格 | 单元格 |   </span><br><span class="line">| 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
-<p>例:<br>|  表头  |  表头  |<br>|  —-  |  —-  |<br>| 单元格 | 单元格 |<br>| 单元格 | 单元格 |  </p>
+<h2 id="Markdown图片"><a href="#Markdown图片" class="headerlink" title="Markdown图片"></a>Markdown图片</h2><h5 id="图片使用"><a href="#图片使用" class="headerlink" title="图片使用"></a>图片使用</h5><p><code>![alt 属性文本](图片地址 &quot;可选标题&quot;)</code></p>
+<p>也可以像<strong>高级链接</strong>那样使用</p>
+<h5 id="高度宽度"><a href="#高度宽度" class="headerlink" title="高度宽度"></a>高度宽度</h5><p>可以使用<code>&lt;img&gt;</code>标签</p>
+<h2 id="Markdown表格"><a href="#Markdown表格" class="headerlink" title="Markdown表格"></a>Markdown表格</h2><h5 id="表格使用"><a href="#表格使用" class="headerlink" title="表格使用"></a>表格使用</h5><p>使用<code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">|  表头  |  表头  |   </span><br><span class="line">|  ----  |  ----  |   </span><br><span class="line">| 单元格 | 单元格 |   </span><br><span class="line">| 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+<p>例：<br>|  表头  |  表头  |<br>|  —-  |  —-  |<br>| 单元格 | 单元格 |<br>| 单元格 | 单元格 |  </p>
 <h5 id="对齐方式"><a href="#对齐方式" class="headerlink" title="对齐方式"></a>对齐方式</h5><p><code>-:</code> 右对齐<br><code>:-</code> 左对齐<br><code>:-:</code> 居中对齐</p>
 <pre><code>| 左对齐 | 右对齐 | 居中对齐 |
 | :-----| ----: | :----: |
