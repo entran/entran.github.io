@@ -3,7 +3,9 @@
   <entry>
     <title>Markdown笔记</title>
     <url>/2019/11/07/Markdown/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档<br>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档<br>Markdown 编写的文档后缀为 .md, .markdown  </p>
+    <content><![CDATA[<hr>
+<p><strong>前言</strong><br>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档<br>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档<br>Markdown 编写的文档后缀为 .md, .markdown  </p>
+<hr>
 <h2 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h2><h5 id="标题使用方法1"><a href="#标题使用方法1" class="headerlink" title="标题使用方法1"></a>标题使用方法1</h5><p>Markdown标题有两种格式<br>一级标题 用两个<code>=</code><br>二级标题 用两个<code>-</code></p>
 <p><code>我是一级标题</code><br><code>==</code><br><code>我是二级标题</code><br><code>--</code> </p>
 <h5 id="标题使用方法2"><a href="#标题使用方法2" class="headerlink" title="标题使用方法2"></a>标题使用方法2</h5><p> 使用#号表示1-6级标题，一级对应一个#号，二级对应两个#号，以此类推。 </p>
