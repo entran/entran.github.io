@@ -21,7 +21,9 @@
 <h5 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h5><p>使用HTML中的<code>&lt;u&gt;&lt;/u&gt;</code>标签  </p>
 <p>例：<br><u>带下划线文本</u>  </p>
 <h5 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h5><p>例：<br>tRan[^name]<br>[^name]: 英文名</p>
-<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><h5 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h5><p>无序列表使用<em>,+,-作为标记<br>`</em> 第一项  <code></code>+ 第二项  <code></code>- 第三项 `</p>
+<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><h5 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h5><p>无序列表使用 *,+,-作为标记<br><code>* 第一项</code>  </p>
+<p><code>+ 第二项</code>  </p>
+<p><code>- 第三项</code>  </p>
 <p>例：</p>
 <ul>
 <li>第一项  </li>
@@ -118,6 +120,9 @@
 | :-----| ----: | :----: |
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |</code></pre><p>例：<br>| 左对齐 | 右对齐 | 居中对齐 |<br>| :—–| —-: | :—-: |<br>| 单元格 | 单元格 | 单元格 |<br>| 单元格 | 单元格 | 单元格 |</p>
+<h2 id="Markdown高级用法"><a href="#Markdown高级用法" class="headerlink" title="Markdown高级用法"></a>Markdown高级用法</h2><h5 id="支持HTML元素"><a href="#支持HTML元素" class="headerlink" title="支持HTML元素"></a>支持HTML元素</h5><p><code>使用&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;C&lt;/kbd&gt;复制</code></p>
+<p>使用<kbd>Ctrl</kbd>+<kbd>C</kbd>复制</p>
+<h5 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h5><p>使用反斜杠 \ + 需要的转义的符号</p>
 ]]></content>
       <categories>
         <category>Markdown</category>
